@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mobiledelivery/src/pages/login/login_page.dart';
+import 'package:mobiledelivery/src/pages/register/register_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +28,8 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       getPages: [
-        GetPage(name: '/', page: () => LoginPage())
+        GetPage(name: '/', page: () => LoginPage()),
+        GetPage(name: '/register', page: () => RegisterPage())
       ],
       theme: ThemeData(
         primaryColor: Colors.amber,
