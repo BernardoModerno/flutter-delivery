@@ -5,3 +5,6 @@ npm i cors
 npm i morgan
 npm i mysql
 npm i bcryptjs
+npm i passport
+npm i passport-jwt
+npm i jsonwebtoken
